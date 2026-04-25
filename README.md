@@ -83,7 +83,19 @@ This workflow explores a way to:<br>
 - improve frontend readability
 - reduce inconsistency between UI files and implementation
 - support scalable Design System maintenance
-- 
+
+## Token & Style Logic
+The design structure follows a layered approach: <br>
+Primitive Token
+↓
+Semantic Token
+↓
+SCSS Variable Mapping
+↓
+Tailwind Utility Mapping
+↓
+Component Usage
+This structure helps reduce gaps between design decisions and frontend implementation.
 ## Workflow
 Figma Design System  
 → Figma Variables  
