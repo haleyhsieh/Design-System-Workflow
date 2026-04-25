@@ -12,6 +12,22 @@ Integrating <entity>Figma Make, Design Systems, Design Tokens, and <entity>Git v
 ## Project Purpose
 This project is a design documentation demo built to explore how a Figma-based Design System can be translated into a browsable, maintainable, and version-controlled guideline site.While also experimenting with integrating Figma Make, Design Systems, Design Tokens, and Git version control to create a more effective workflow for managing design updates. The goal is to ensure that design guidelines go beyond static mockups and become browsable, maintainable resources that support frontend development and cross-functional collaboration.
 
+## 為什麼我建立這個專案
+在實際產品團隊中，Figma 設計稿與前端實作之間，經常存在落差與溝通成本。如:
+- 設計稿與實際前端瀏覽效果落差
+- 元件規範不易查詢
+- 工程師需頻繁切換 Figma 與程式碼比對
+- 設計變更缺乏可追溯版本紀錄
+
+因此，我嘗試建立一個介於 Design Guideline 與輕量版 Storybook 之間的流程。<br>
+此專案旨在探索一套能夠串聯以下元素的協作流程：
+- Figma Design System
+- Design Tokens／Variables
+- 元件規範（Component Guidelines）
+- 類似Storybook 的文件化展示方式（Documentation）
+- Git 版本控制機制
+
+
 ## Why I Built This
 In real product teams, Figma files and frontend implementation often have gaps. This demo explores a workflow that connects:
 - Figma Design System
@@ -20,10 +36,54 @@ In real product teams, Figma files and frontend implementation often have gaps. 
 - Storybook-style Documentation
 - Git Version Control
 
-## Approach
-This demo uses an existing PrimeReact-based Design System as the UI foundation.  
-The main focus is not creating every component from scratch, but documenting how components, tokens, states, and usage rules can be organized for frontend collaboration.
+# 方法與設計思路
+此示範專案以 PrimeReact 為基礎的 Design System 作為 UI 架構基底。重點並非從零開始建立每一個元件，而是透過文件化方式，整理元件、Design Token、狀態規則與使用方式，讓設計規範能更有效支援前端協作與系統化管理。<br>
 
+整體流程是以「系統導向的 UI 工作流程」為核心，而非僅停留在視覺設計層面。
+
+我的做法結合過往在 SCSS 元件架構、工具化樣式思維，以及前端友善文件整理上的經驗。整體架構主要受到以下方向影響：
+-SCSS 元件組織方式（variables、mixins、可重複使用樣式）
+-受Tailwind CSS 啟發的 utility-first 思維
+-類似Bootstrap 與Storybook 的元件文件化模式
+-Figma Variables 與前端實作之間進行 Design Token 對應管理
+
+不同於將 Design System 視為靜態的 Figma 元件庫，此專案更著重探索如何讓設計規範轉化為可瀏覽、可維護，並具備版本管理概念的文件系統，以支援前端開發與跨部門協作。
+
+# 為什麼採用這樣的結構
+
+在許多專案中，隨著系統規模擴大，<entity>Figma 設計檔往往會變得越來越難維護。<br>
+
+此工作流程旨在探索一種方式，以達成以下目標：<br>
+
+-讓設計決策具備可追溯性
+-提升前端閱讀與理解的效率
+-降低 UI 設計稿與實際實作之間的不一致性
+-支援可擴充、可持續維護的 Design System 管理機制
+
+## Approach
+
+This demo uses an existing PrimeReact-based Design System as its UI foundation. Rather than building every component from scratch, the focus is on documenting how components, design tokens, states, and usage rules can be structured to support frontend collaboration and scalable system design.
+
+The workflow is built from a system-oriented UI perspective rather than a purely visual design process.
+
+My approach combines previous experience with SCSS component architecture, utility-based styling concepts, and frontend-friendly documentation methods. The structure is influenced by:
+
+- SCSS component organization (variables, mixins, reusable styles)
+- Utility-first thinking inspired by Tailwind CSS
+- Component documentation patterns similar to Bootstrap and Storybook
+- Design Token mapping between Figma variables and frontend implementation
+
+Instead of treating a Design System as a static <entity>:contentReference[oaicite:0]{index=0} library, this demo explores how design guidelines can become browsable, maintainable, and version-aware documentation that better supports frontend development and cross-functional collaboration.
+
+## Why This Structure
+In many projects, Figma files become difficult to maintain as systems grow.<br>
+
+This workflow explores a way to:<br>
+- make design decisions traceable
+- improve frontend readability
+- reduce inconsistency between UI files and implementation
+- support scalable Design System maintenance
+- 
 ## Workflow
 Figma Design System  
 → Figma Variables  
