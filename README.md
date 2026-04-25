@@ -9,9 +9,6 @@ Integrating <entity>Figma Make, Design Systems, Design Tokens, and <entity>Git v
 此專案為一個設計文件展示範例，旨在探索如何將以Figma 為基礎的 Design System，轉化為可瀏覽、可維護且具版本控制機制的設計規範網站。
 並嘗試將Figma Make、Design System、Design Token 與 Git 版本管理方式結合一起做有效的版本控管，讓設計規範不只停留於設計稿，而能以可瀏覽、可維護的方式支援前端開發與跨部門協作
 
-## Project Purpose
-This project is a design documentation demo built to explore how a Figma-based Design System can be translated into a browsable, maintainable, and version-controlled guideline site.While also experimenting with integrating Figma Make, Design Systems, Design Tokens, and Git version control to create a more effective workflow for managing design updates. The goal is to ensure that design guidelines go beyond static mockups and become browsable, maintainable resources that support frontend development and cross-functional collaboration.
-
 ## 為什麼我建立這個專案
 在實際產品團隊中，Figma 設計稿與前端實作之間，經常存在落差與溝通成本。如:
 - 設計稿與實際前端瀏覽效果落差
@@ -26,15 +23,6 @@ This project is a design documentation demo built to explore how a Figma-based D
 - 元件規範（Component Guidelines）
 - 類似Storybook 的文件化展示方式（Documentation）
 - Git 版本控制機制
-
-
-## Why I Built This
-In real product teams, Figma files and frontend implementation often have gaps. This demo explores a workflow that connects:
-- Figma Design System
-- Design Tokens / Variables
-- Component Guidelines
-- Storybook-style Documentation
-- Git Version Control
 
 # 方法與設計思路
 此示範專案以 PrimeReact 為基礎的 Design System 作為 UI 架構基底。重點並非從零開始建立每一個元件，而是透過文件化方式，整理元件、Design Token、狀態規則與使用方式，讓設計規範能更有效支援前端協作與系統化管理。<br>
@@ -59,6 +47,54 @@ In real product teams, Figma files and frontend implementation often have gaps. 
 -提升前端閱讀與理解的效率
 -降低 UI 設計稿與實際實作之間的不一致性
 -支援可擴充、可持續維護的 Design System 管理機制
+
+## Token 與樣式邏輯
+設計結構採用分層式邏輯：
+Primitive Token
+↓
+Semantic Token
+↓
+SCSS Variable Mapping
+↓
+Tailwind Utility Mapping
+↓
+Component Usage
+
+此結構有助於降低設計決策與前端實作之間的落差。
+
+## 工作流程
+Figma Design System  
+→ Figma Variables  
+→ Tokens Studio / JSON Tokens  
+→ Figma Make Documentation Site  
+→ React Export  
+→ Git Version Control
+
+## 範圍
+目前演示包括：
+- Color / Typography / Spacing foundation
+- Button component guideline
+- Form input guideline
+- Component states
+- Token mapping
+- Version log
+
+## 持續更新中
+此專案為持續建置中的示範作品，後續將逐步補充更多元件規範、Token 對應邏輯與設計文件化範例。
+
+
+## Project Purpose
+This project is a design documentation demo built to explore how a Figma-based Design System can be translated into a browsable, maintainable, and version-controlled guideline site.While also experimenting with integrating Figma Make, Design Systems, Design Tokens, and Git version control to create a more effective workflow for managing design updates. The goal is to ensure that design guidelines go beyond static mockups and become browsable, maintainable resources that support frontend development and cross-functional collaboration.
+
+
+## Why I Built This
+In real product teams, Figma files and frontend implementation often have gaps. This demo explores a workflow that connects:
+- Figma Design System
+- Design Tokens / Variables
+- Component Guidelines
+- Storybook-style Documentation
+- Git Version Control
+
 
 ## Approach
 
