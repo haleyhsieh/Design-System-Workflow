@@ -6,6 +6,45 @@ Integrating <entity>Figma Make, Design Systems, Design Tokens, and <entity>Git v
 
 ![project1](./assets/Design-System-Workflow-cover.png) 
 
+
+## Project Links
+
+- Figma Design System  
+  [View Figma File](你的figma連結)
+
+- Figma Make Documentation  
+  [View Documentation Demo](你的figma make publish連結)
+
+- UI Kit Source  
+  [View UI Kit](你的publish ui kit連結)
+
+- Tokens Export Reference  
+  JSON Token Export (coming soon)
+
+- GitHub Repository  
+  [View Repository](repo網址)
+
+## Repository Structure
+
+```
+Design-System-Workflow/
+│
+├── figma/
+│   → Design System source file
+│
+├── ui-kit/
+│   → Published UI Kit structure
+│
+├── tokens/
+│   → JSON token export
+│
+├── documentation/
+│   → Figma Make guideline pages
+│
+└── version-log/
+    → Update tracking
+```
+
 ## How To Use
 此專案主要作為工作流程示範，而非單純 UI Kit
 ### Step 1 — 在 Figma 建立 Design System
