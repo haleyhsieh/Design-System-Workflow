@@ -5,6 +5,59 @@ Design System Documentation｜Figma × Token × Git 協作流程 - 結合 Figma 
 Integrating <entity>Figma Make, Design Systems, Design Tokens, and <entity>Git version control to explore a collaborative design workflow that connects frontend style management with component-based thinking—enabling design guidelines to go beyond static mockups and become browsable, maintainable resources that support frontend development and cross-functional collaboration.
 
 ![project1](./assets/Design-System-Workflow-cover.png) 
+
+## How To Use
+此專案主要作為工作流程示範，而非單純 UI Kit
+### Step 1 — 在 Figma 建立 Design System
+先於 Figma 中建立基礎設計系統。
+
+建議包含：
+
+- Component Library
+- Variants
+- Variables
+- Design Tokens
+- 命名規則
+- 元件狀態（hover / active / disabled / focus）
+
+此專案以 Tailwind CSS 的思維為基礎，建立可重複使用的結構。
+
+### Step 2 — 建立 Figma Make UI Kit
+將 Design System 頁面複製到 Figma Make UI Kit AI。
+
+流程如下：
+
+1. 將 Design System 頁面貼入 Figma Make
+2. 生成 UI Kit 結構
+3. Publish 成可重複引用的 UI Kit
+4. 在其他 Figma Make 專案中重複使用
+
+這樣可以讓 Design System 變成可持續引用的元件來源。
+
+### Step 3 — 建立 Documentation 展示頁
+使用 Figma Make 建立類似 Bootstrap 的設計規範展示頁。
+
+可展示內容包含：
+
+- Button
+- Card
+- Form Input
+- Dropdown
+- Alert
+- Badge
+- Modal
+- Navigation
+- Typography
+- Color Tokens
+
+文件頁面應包含：
+
+- 視覺展示
+- Token 對應
+- 元件狀態
+- 使用範例
+- 規則說明
+
 ## 專案目的
 此專案為一個設計文件展示範例，旨在探索如何將以Figma 為基礎的 Design System，轉化為可瀏覽、可維護且具版本控制機制的設計規範網站。
 並嘗試將Figma Make、Design System、Design Token 與 Git 版本管理方式結合一起做有效的版本控管，讓設計規範不只停留於設計稿，而能以可瀏覽、可維護的方式支援前端開發與跨部門協作
