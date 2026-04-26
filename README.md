@@ -16,7 +16,7 @@ Integrating <entity>Figma Make, Design Systems, Design Tokens, and <entity>Git v
   [View Documentation Demo](你的figma make publish連結)
 
 - UI Kit Source  
-  [View UI Kit](你的publish ui kit連結)
+  [View UI Kit]([ui kit](https://www.figma.com/design/TSjbCLU9uVC18YhwlUWTBw/Workflow-UI-KIT.))
 
 - Tokens Export Reference  
   JSON Token Export (coming soon)
