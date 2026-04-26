@@ -34,6 +34,9 @@ Integrating <entity>Figma Make, Design Systems, Design Tokens, and <entity>Git v
 
 這樣可以讓 Design System 變成可持續引用的元件來源。
 
+這是 Workflow UI KIT 的程式碼包。原始項目可在以下位置取得：<br>
+https://www.figma.com/design/TSjbCLU9uVC18YhwlUWTBw/Workflow-UI-KIT.
+
 ### Step 3 — 建立 Documentation 展示頁
 使用 Figma Make 建立類似 Bootstrap 的設計規範展示頁。
 
