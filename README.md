@@ -58,6 +58,39 @@ Integrating <entity>Figma Make, Design Systems, Design Tokens, and <entity>Git v
 - 使用範例
 - 規則說明
 
+### Step 4 — 專案檔案結構
+此 Repository 可包含以下結構：
+```
+/design-system-figma
+→ 原始 Design System 檔案
+
+/ui-kit
+→ Figma Make UI Kit
+
+/tokens
+→ Tokens Studio JSON 匯出
+
+/documentation
+→ Design Guideline 頁面
+
+/version-log
+→ 版本紀錄
+```
+
+### Step 5 — 使用 Git 做版本管理
+
+Git 用於追蹤設計規範與文件更新。
+
+版本控制可達成：
+
+- 記錄設計變更
+- 比對版本差異
+- Token 更新追蹤
+- 元件修改紀錄
+- 維持團隊設計一致性
+
+比起單純 Figma 檔案，更能建立長期維護流程
+
 ## 專案目的
 此專案為一個設計文件展示範例，旨在探索如何將以Figma 為基礎的 Design System，轉化為可瀏覽、可維護且具版本控制機制的設計規範網站。
 並嘗試將Figma Make、Design System、Design Token 與 Git 版本管理方式結合一起做有效的版本控管，讓設計規範不只停留於設計稿，而能以可瀏覽、可維護的方式支援前端開發與跨部門協作
