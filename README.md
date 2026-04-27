@@ -10,19 +10,19 @@ Integrating <entity>Figma Make, Design Systems, Design Tokens, and <entity>Git v
 ## Project Links
 
 - Figma Design System  
-  [View Figma File](你的figma連結)
+  [Path](https://github.com/haleyhsieh/Design-System-Workflow/tree/main/figma/design-system)
 
 - Figma Make Documentation  
   [View Documentation Demo](https://canvas-mentor-81502827.figma.site)
+  [Path](https://github.com/haleyhsieh/Design-System-Workflow/tree/main/figma-make/documentation-site)
 
 - UI Kit Source  
   [View UI Kit](https://www.figma.com/design/TSjbCLU9uVC18YhwlUWTBw/Workflow-UI-KIT.)
+  [Path](https://github.com/haleyhsieh/Design-System-Workflow/tree/main/figma-make/UIkit)
 
 - Tokens Export Reference  
-  JSON Token Export (coming soon)
-
-- GitHub Repository  
-  [View Repository](repo網址)
+  [Path](https://github.com/haleyhsieh/Design-System-Workflow/tree/main/tokens).
+  
 
 ## Repository Structure
 
