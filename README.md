@@ -16,7 +16,7 @@ Integrating <entity>Figma Make, Design Systems, Design Tokens, and <entity>Git v
   [View Documentation Demo](https://canvas-mentor-81502827.figma.site)
 
 - UI Kit Source  
-  [View UI Kit]([ui kit](https://www.figma.com/design/TSjbCLU9uVC18YhwlUWTBw/Workflow-UI-KIT.))
+  [View UI Kit](https://www.figma.com/design/TSjbCLU9uVC18YhwlUWTBw/Workflow-UI-KIT.)
 
 - Tokens Export Reference  
   JSON Token Export (coming soon)
