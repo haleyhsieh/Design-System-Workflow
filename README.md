@@ -59,7 +59,7 @@ Design-System-Workflow/
 - 命名規則
 - 元件狀態（hover / active / disabled / focus）
 
-此專案以 Tailwind CSS 的思維為基礎，建立可重複使用的結構。
+此專案以 [Tailwind CSS](https://v3.tailwindcss.com/docs/installation) 的思維為基礎，建立可重複使用的結構。
 
 ### Step 2 — 建立 Figma Make UI Kit
 將 Design System 頁面複製到 Figma Make UI Kit AI。
@@ -77,7 +77,7 @@ Design-System-Workflow/
 https://www.figma.com/design/TSjbCLU9uVC18YhwlUWTBw/Workflow-UI-KIT.
 
 ### Step 3 — 建立 Documentation 展示頁
-使用 Figma Make 建立類似 Bootstrap 的設計規範展示頁。
+使用 Figma Make 建立類似 [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) 的設計規範展示頁。
 
 可展示內容包含：
 
@@ -153,7 +153,7 @@ Git 用於追蹤設計規範與文件更新。
 - Git 版本控制機制
 
 # 方法與設計思路
-此示範專案以 PrimeReact 為基礎的 Design System 作為 UI 架構基底。重點並非從零開始建立每一個元件，而是透過文件化方式，整理元件、Design Token、狀態規則與使用方式，讓設計規範能更有效支援前端協作與系統化管理。<br>
+此示範專案以 [PrimeReact](https://primereact.org/installation/) 為基礎的 Design System 作為 UI 架構基底。重點並非從零開始建立每一個元件，而是透過文件化方式，整理元件、Design Token、狀態規則與使用方式，讓設計規範能更有效支援前端協作與系統化管理。<br>
 
 整體流程是以「系統導向的 UI 工作流程」為核心，而非僅停留在視覺設計層面。
 
