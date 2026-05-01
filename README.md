@@ -21,6 +21,7 @@ Integrating <entity>Figma Make, Design Systems, Design Tokens, and <entity>Git v
    * 原始 Figma Design System 設計檔。
    * 包含 Variables、Tokens、Variants 與 Component States。
    * 可切換不同顏色、圓角、Hover / Active 等互動狀態。
+![project1](./figma/design-system/img/varant3.jpg) 
 
 - UI Kit Source  
   [View UI Kit](https://www.figma.com/design/TSjbCLU9uVC18YhwlUWTBw/Workflow-UI-KIT.)
