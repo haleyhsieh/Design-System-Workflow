@@ -5,16 +5,10 @@ All notable changes to this Design System Documentation Workflow project will be
 此設計系統文件工作流程項目的所有重大變更都將在此處記錄。
 
 ---
-## v0.5 — Documentation Structure
-Date: 2026-05-01
-
-### Added
-- Added version-log 文件
-- 
 
 
 ### v0.4 — Figma Make UI Kit Integration & Token
-Date: 2026-04-26
+Date: 2026-04-27
 #### Added
 - Figma Make UI Kit integration
 - Component preview structure
