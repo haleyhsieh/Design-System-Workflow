@@ -17,14 +17,17 @@ Integrating <entity>Figma Make, Design Systems, Design Tokens, and <entity>Git v
 
 - Figma Design System  
   [Path](https://github.com/haleyhsieh/Design-System-Workflow/tree/main/figma/design-system)
+   * 原始設計檔figma檔案，含vriable，Token，variant，可以操作切換換顏色，圓角，hover , active 不同status
 
 - UI Kit Source  
   [View UI Kit](https://www.figma.com/design/TSjbCLU9uVC18YhwlUWTBw/Workflow-UI-KIT.)
   [Path](https://github.com/haleyhsieh/Design-System-Workflow/tree/main/figma-make/UIkit)
+  * 上面Figma Design System 使用Figma UI Kit AI 轉成 UI Kit，可以在Figma make專案內引用套用樣式
+  * 註:Figma make 直接導入igma UI Kit AI 轉成 UI Kit 有一些系統性問題必須手動解(紀錄在version-log/Known Issues)
 
 - Tokens Export Reference  
   [Path](https://github.com/haleyhsieh/Design-System-Workflow/tree/main/tokens).
-  
+  *Figma Design System 轉出來json檔提供前端比對
 
 ## Repository Structure
 
