@@ -27,7 +27,7 @@ Integrating <entity>Figma Make, Design Systems, Design Tokens, and <entity>Git v
 
 - Tokens Export Reference  
   [Path](https://github.com/haleyhsieh/Design-System-Workflow/tree/main/tokens).
-  *Figma Design System 轉出來json檔提供前端比對
+  * Figma Design System 轉出來json檔提供前端比對
 
 ## Repository Structure
 
