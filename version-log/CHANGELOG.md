@@ -5,6 +5,27 @@ All notable changes to this Design System Documentation Workflow project will be
 此設計系統文件工作流程項目的所有重大變更都將在此處記錄。
 
 ---
+## v0.3 — Button System
+Date: 2026-04-26
+### Added
+- Button variants
+- Severity system
+- Rounded options
+- State definition
+- 按鈕變體
+- 嚴重性系統
+- 圓角選項
+- 狀態定義
+
+## v0.2 — Foundation Setup 基礎設定
+Date: 2026-04-26
+### Added
+- Primitive color tokens
+- Semantic token mapping
+- Spacing rule planning
+- 基本顏色標記
+- 語意標記
+- 間距規則規劃
 
 ## v0.1 — Project Structure專案結構
 Date: 2026-04-26
@@ -21,25 +42,3 @@ Date: 2026-04-26
 
 ### Notes
 - Defined project direction toward documentation-first Design System workflow
-
-## v0.2 — Foundation Setup 基礎設定
-Date: 2026-04-26
-### Added
-- Primitive color tokens
-- Semantic token mapping
-- Spacing rule planning
-- 基本顏色標記
-- 語意標記
-- 間距規則規劃
-
-## v0.3 — Button System
-Date: 2026-04-26
-### Added
-- Button variants
-- Severity system
-- Rounded options
-- State definition
-- 按鈕變體
-- 嚴重性系統
-- 圓角選項
-- 狀態定義
