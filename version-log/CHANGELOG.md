@@ -5,9 +5,9 @@ All notable changes to this Design System Documentation Workflow project will be
 此設計系統文件工作流程項目的所有重大變更都將在此處記錄。
 
 ---
-## v0.3 — Button System
+### v0.3 — Button System
 Date: 2026-04-26
-### Added
+#### Added
 - Button variants
 - Severity system
 - Rounded options
@@ -17,9 +17,9 @@ Date: 2026-04-26
 - 圓角選項
 - 狀態定義
 
-## v0.2 — Foundation Setup 基礎設定
+### v0.2 — Foundation Setup 基礎設定
 Date: 2026-04-26
-### Added
+#### Added
 - Primitive color tokens
 - Semantic token mapping
 - Spacing rule planning
@@ -27,10 +27,10 @@ Date: 2026-04-26
 - 語意標記
 - 間距規則規劃
 
-## v0.1 — Project Structure專案結構
+### v0.1 — Project Structure專案結構
 Date: 2026-04-26
 
-### Added
+#### Added
 - Initial repository structure
 - Design System workflow planning
 - Folder architecture for Figma / Token / Documentation
@@ -40,5 +40,5 @@ Date: 2026-04-26
 - Figma / Token / 文件的資料夾架構
 - README 專案概述
 
-### Notes
+#### Notes
 - Defined project direction toward documentation-first Design System workflow
