@@ -13,23 +13,28 @@ Integrating <entity>Figma Make, Design Systems, Design Tokens, and <entity>Git v
   [View Documentation Demo](https://canvas-mentor-81502827.figma.site)
   [Path](https://github.com/haleyhsieh/Design-System-Workflow/tree/main/figma-make/documentation-site)
   * 將 Figma Design System 轉換為可瀏覽的 Documentation 網站。
-  * 文件呈現方式參考 ![Boostrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) 與 ![Tailwindcss](https://v3.tailwindcss.com/docs/flex-grow)的結構邏輯，提供元件規範、Token 對應與實際前端展示。
+  * 文件呈現方式參考 [Boostrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) 與 [Tailwindcss](https://v3.tailwindcss.com/docs/flex-grow)的結構邏輯，提供元件規範、Token 對應與實際前端展示。
   * 所有範例皆為實際 HTML / CSS 前端生成，而非僅限於圖片或 Figma 畫面。
   
 - Figma Design System  
   [Path](https://github.com/haleyhsieh/Design-System-Workflow/tree/main/figma/design-system)
-   * 原始設計檔figma檔案，含vriable，Token，variant，可以操作切換換顏色，圓角，hover , active 不同status
+   * 原始 Figma Design System 設計檔。
+   * 包含 Variables、Tokens、Variants 與 Component States。
+   * 可切換不同顏色、圓角、Hover / Active 等互動狀態。
 
 - UI Kit Source  
   [View UI Kit](https://www.figma.com/design/TSjbCLU9uVC18YhwlUWTBw/Workflow-UI-KIT.)
   [Path](https://github.com/haleyhsieh/Design-System-Workflow/tree/main/figma-make/UIkit)
-  * 上面Figma Design System 使用Figma UI Kit AI 轉成 UI Kit，可以在Figma make專案內引用套用樣式
-  * 註:Figma make 直接導入igma UI Kit AI 轉成 UI Kit 有一些系統性問題必須手動解(紀錄在version-log/Known Issues)
+  * 由 Figma Design System 延伸建立的 UI Kit。
+  * 使用 Figma UI Kit AI 建立可供 Figma Make 引用的元件庫。
+  * 可於 Figma Make 專案中直接套用樣式與元件結構。
+  * 已記錄部分導入限制與手動修正流程於 version-log / Known Issues。
 
 - Tokens Export Reference  
   [Path](https://github.com/haleyhsieh/Design-System-Workflow/tree/main/tokens).
-  * Figma Design System 轉出來json檔提供前端比對
-
+  * Figma Design System 匯出的 JSON Token 檔案。
+  * 作為設計與前端實作之間的 Token Mapping 參考依據。
+    
 ## Repository Structure
 
 ```
