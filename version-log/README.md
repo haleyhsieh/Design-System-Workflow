@@ -45,6 +45,7 @@ Purpose:
 ### `DECISIONS.md`
 
 Records important design and workflow decisions.
+記錄重要的設計和工作流程決策。
 
 Includes:
 
@@ -53,33 +54,43 @@ Includes:
 * Token architecture decisions
 * Documentation approach
 * Trade-offs and reasoning
+* 選擇特定結構的原因
+* 命名策略
+* 令牌架構決策
+* 文檔編寫方法
+* 權衡取捨及理由
 
 Purpose:
 
 > Explain the thinking behind system design choices.
-
+解釋系統設計選擇背後的想法。
 ---
 
 ### `KNOWN-ISSUES.md`
 
 Tracks known limitations, unresolved issues, and integration challenges.
-
+追蹤已知限制、未解決的問題和整合挑戰。
 Includes:
 
 * Token mapping limitations
 * Figma Make integration constraints
 * Naming mismatches
 * Manual workflow dependencies
+* 令牌映射限制
+* Figma Make 整合限制
+* 命名不匹配
+* 手動工作流程依賴項
 
 Purpose:
 
 > Document current technical gaps and ongoing investigation.
-
+記錄當前技術差距和正在進行的調查。
 ---
 
 ### `ROADMAP.md`
 
-Defines future development direction.
+Defines future development direction.專案規劃進行中待更新
+
 
 Includes:
 
@@ -87,7 +98,12 @@ Includes:
 * Documentation expansion
 * Theme system improvements
 * Workflow refinement
+* 計劃新增組件
+* 文件擴充
+* 主題系統改進
+* 工作流程優化
 
 Purpose:
 
 > Show future goals and next steps for the project.
+展示專案的未來目標和後續步驟。
