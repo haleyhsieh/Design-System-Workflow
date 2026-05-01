@@ -9,9 +9,11 @@ Integrating <entity>Figma Make, Design Systems, Design Tokens, and <entity>Git v
 
 ## Project Links
 
-- Figma Make Documentation  
+- Design system Documentation  
   [View Documentation Demo](https://canvas-mentor-81502827.figma.site)
   [Path](https://github.com/haleyhsieh/Design-System-Workflow/tree/main/figma-make/documentation-site)
+  * 將Figma Design System  設計系統轉成UI Kit 並導入Design system Documentation ，文件手冊像Boostrap或是Tailwindcss一樣，裡面範例都是實際網頁前端生成，
+    非僅是圖片或是figma檔案而已
 
 - Figma Design System  
   [Path](https://github.com/haleyhsieh/Design-System-Workflow/tree/main/figma/design-system)
