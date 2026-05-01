@@ -108,3 +108,95 @@ Component styling may not auto-map correctly.<br>
 #### Status
 Workaround exists through API object adjustment.<br>
 可以透過調整 API 物件來解決此問題。
+
+#### 說明
+- 預設語法標記方式
+```
+ <button className="bg-primary text-primary-foreground px-4 py-2 rounded-md hover:bg-primary/90 transition-colors">
+              Primary Button
+</button>
+```
+- Figma UI Kit 沒有 classname - 儘管figma design sysytem 參考了 Tailwindcss 但在轉換上無法直接對應生成class name 
+  ```
+  <div className="flex flex-wrap gap-3">
+            {severities.map((severity) => (
+              <Button
+                key={severity}
+                severity={severity}
+                variant="outlined"
+                iconLeft={<HeartIcon className="w-4 h-4" />}
+              >
+                {severity.charAt(0).toUpperCase() + severity.slice(1)}
+              </Button>
+            ))}
+  </div>
+  ```
+
+
+ - 解決方式，請figma make 改成 inline style 在Design system Documentation上顯示，這樣瀏覽吃到的css就是正確的figma檔案樣式
+
+
+
+
+```
+Please follow the same structure and interaction pattern as the Primary Button section.
+
+Create the same single-button interactive demo for:
+- Secondary
+- Success
+- Warning
+- Info
+- Danger
+
+Important:
+- Each variant should use only ONE interactive button.
+- Do not create separate buttons for Default, Hover, Active, Focus.
+- The button should naturally show hover, active, and focus states through real interaction.
+- Disabled can be shown as one static disabled example if needed.
+- Keep the same layout, spacing, documentation style, and token reference format as the Primary Button section.
+
+Use these token values:
+
+Secondary:
+Default bg #f1f5f9
+Text #0f172a
+Border #f1f5f9
+Hover bg #e2e8f0
+Active bg #cbd5e1
+Focus ring rgba(100,116,139,0.35)
+
+Success:
+Default bg #22c55e
+Text #ffffff
+Border #22c55e
+Hover bg #16a34a
+Active bg #15803d
+Focus ring rgba(34,197,94,0.35)
+
+Warning:
+Default bg #f97316
+Text #ffffff
+Border #f97316
+Hover bg #ea580c
+Active bg #c2410c
+Focus ring rgba(249,115,22,0.35)
+
+Info:
+Default bg #3b82f6
+Text #ffffff
+Border #3b82f6
+Hover bg #2563eb
+Active bg #1d4ed8
+Focus ring rgba(59,130,246,0.35)
+
+Danger:
+Default bg #ef4444
+Text #ffffff
+Border #ef4444
+Hover bg #dc2626
+Active bg #b91c1c
+Focus ring rgba(239,68,68,0.35)
+
+Keep token names visible as documentation references, but use inline styles or CSS variables that work correctly in Figma Make preview.
+Do not modify other pages.
+```
