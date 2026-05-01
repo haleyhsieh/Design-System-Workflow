@@ -12,9 +12,10 @@ Integrating <entity>Figma Make, Design Systems, Design Tokens, and <entity>Git v
 - Design system Documentation  
   [View Documentation Demo](https://canvas-mentor-81502827.figma.site)
   [Path](https://github.com/haleyhsieh/Design-System-Workflow/tree/main/figma-make/documentation-site)
-  * 將Figma Design System  設計系統轉成UI Kit 並導入Design system Documentation ，文件手冊像Boostrap或是Tailwindcss一樣，裡面範例都是實際網頁前端生成，
-    非僅是圖片或是figma檔案而已
-
+  * 將 Figma Design System 轉換為可瀏覽的 Documentation 網站。
+  * 文件呈現方式參考 ![Boostrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) 與 ![Tailwindcss](https://v3.tailwindcss.com/docs/flex-grow)的結構邏輯，提供元件規範、Token 對應與實際前端展示。
+  * 所有範例皆為實際 HTML / CSS 前端生成，而非僅限於圖片或 Figma 畫面。
+  
 - Figma Design System  
   [Path](https://github.com/haleyhsieh/Design-System-Workflow/tree/main/figma/design-system)
    * 原始設計檔figma檔案，含vriable，Token，variant，可以操作切換換顏色，圓角，hover , active 不同status
